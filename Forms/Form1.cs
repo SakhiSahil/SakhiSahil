@@ -95,5 +95,16 @@ namespace Dental
         {
             LoadDashboardForm();
         }
+
+        private void btnAppointments_Click(object sender, EventArgs e)
+        {
+            AppointmentForm appointment = new AppointmentForm();
+            guna2Panel2.Controls.Clear();
+            appointment.TopLevel = false;
+            appointment.AutoScroll = true;
+            guna2Panel2.Controls.Add(appointment);
+            appointment.Show();
+            
+        }
     }
 }

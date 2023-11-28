@@ -78,7 +78,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1200, 46);
+            this.panel1.Size = new System.Drawing.Size(1174, 46);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDoubleClick);
             // 
@@ -112,7 +112,7 @@
             this.guna2ControlBox2.HoverState.FillColor = System.Drawing.Color.CornflowerBlue;
             this.guna2ControlBox2.HoverState.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox2.Location = new System.Drawing.Point(1098, 0);
+            this.guna2ControlBox2.Location = new System.Drawing.Point(1072, 0);
             this.guna2ControlBox2.Name = "guna2ControlBox2";
             this.guna2ControlBox2.Size = new System.Drawing.Size(51, 46);
             this.guna2ControlBox2.TabIndex = 1;
@@ -124,14 +124,14 @@
             this.guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.Red;
             this.guna2ControlBox1.HoverState.IconColor = System.Drawing.Color.White;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1149, 0);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1123, 0);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(51, 46);
             this.guna2ControlBox1.TabIndex = 0;
             // 
             // guna2TextBox1
             // 
-            this.guna2TextBox1.BorderRadius = 15;
+            this.guna2TextBox1.BorderRadius = 10;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -143,13 +143,13 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.IconRight = global::Dental.Properties.Resources.Search;
-            this.guna2TextBox1.Location = new System.Drawing.Point(343, 6);
+            this.guna2TextBox1.Location = new System.Drawing.Point(331, 9);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TextBox1.PlaceholderText = "Search";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(300, 35);
+            this.guna2TextBox1.Size = new System.Drawing.Size(294, 29);
             this.guna2TextBox1.TabIndex = 0;
             // 
             // guna2DragControl1
@@ -173,7 +173,7 @@
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 46);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(200, 623);
+            this.guna2Panel1.Size = new System.Drawing.Size(200, 564);
             this.guna2Panel1.TabIndex = 1;
             // 
             // btnSettings
@@ -191,7 +191,7 @@
             this.btnSettings.HoverState.FillColor = System.Drawing.Color.CornflowerBlue;
             this.btnSettings.Image = global::Dental.Properties.Resources.Settings1;
             this.btnSettings.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnSettings.Location = new System.Drawing.Point(0, 533);
+            this.btnSettings.Location = new System.Drawing.Point(0, 474);
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(200, 45);
             this.btnSettings.TabIndex = 8;
@@ -268,7 +268,7 @@
             this.guna2Button8.HoverState.FillColor = System.Drawing.Color.CornflowerBlue;
             this.guna2Button8.Image = global::Dental.Properties.Resources.Logout1;
             this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.Location = new System.Drawing.Point(0, 578);
+            this.guna2Button8.Location = new System.Drawing.Point(0, 519);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(200, 45);
             this.guna2Button8.TabIndex = 5;
@@ -318,6 +318,7 @@
             this.btnAppointments.Text = "Appointments";
             this.btnAppointments.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAppointments.TextOffset = new System.Drawing.Point(10, 0);
+            this.btnAppointments.Click += new System.EventHandler(this.btnAppointments_Click);
             // 
             // btnPatients
             // 
@@ -371,7 +372,7 @@
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2.Location = new System.Drawing.Point(200, 46);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1000, 623);
+            this.guna2Panel2.Size = new System.Drawing.Size(974, 564);
             this.guna2Panel2.TabIndex = 2;
             // 
             // labelDisplay
@@ -388,7 +389,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 669);
+            this.ClientSize = new System.Drawing.Size(1174, 610);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.panel1);
