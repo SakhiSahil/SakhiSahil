@@ -21,5 +21,24 @@ namespace Dental.Forms
         {
 
         }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            guna2ShadowPanel1.Visible = false;
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            guna2ShadowPanel1.Location = new System.Drawing.Point(100, 100);
+            guna2ShadowPanel1.Visible = true;
+            guna2ShadowPanel1.BringToFront();
+
+
+        }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+                   }
     }
 }
